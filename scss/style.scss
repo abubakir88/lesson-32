@@ -23,6 +23,10 @@
 //   animation: loading 0.8s ease infinite;
 // }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes loading {
   0% {
     transform: rotate(0deg);
